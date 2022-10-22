@@ -86,10 +86,10 @@ app.layout = html.Div(
                     ],
             
                 ),
-            html.Div(
-        children=[
+        html.Div(
+            children=[
                 html.H2(
-                    children=["20113031-Nguyễn Hồng Phong"]
+                    children=["Hoàng Quang Sang - 20108091"]
                     )],
                     className="header-title-2",
             ),
