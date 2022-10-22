@@ -20,7 +20,7 @@ appLoadData = firebase_admin.initialize_app(cred)
 
 dbFireStore = firestore.client()
 
-queryResults = list(dbFireStore.collection(u'tbl20113031').where(u'DEALSIZE', u'==', 'Large').stream())
+queryResults = list(dbFireStore.collection(u'tbl20108091').where(u'DEALSIZE', u'==', 'Large').stream())
 listQueryResult = list(map(lambda x: x.to_dict(), queryResults))
 
 df = pd.DataFrame(listQueryResult)
