@@ -15,7 +15,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
  # TẢI DỮ LIỆU TỪ FIRESTORE
-cred = credentials.Certificate("./iuh-20113031-firebase-adminsdk-bsxkn-76df40d674.json")
+cred = credentials.Certificate("./iuh-20108091-firebase-adminsdk-64kp5-5bba4304e2.json")
 appLoadData = firebase_admin.initialize_app(cred)
 
 dbFireStore = firestore.client()
